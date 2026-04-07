@@ -1,6 +1,9 @@
 # Portfolio Profesional - Stella Maris Loreto
 
-!(assets/Nportfolio.JPG)
+## 📸 Portada
+
+![Stella Maris Loreto, Diseñadora UX/UI y Futura QA Tester, Desarrolladora FrontEnd. Especializada en crear experiencias digitales intuitivas, accesibles y libres de errores. De la idea al prototipo, asegurando la calidad en cada píxel. Botones de navegación: Ver Proyectos, Mi Toolkit, Contacto. Fondo azul oscuro con gradiente de colores cyan y morado en elementos interactivos, transmitiendo profesionalismo y modernidad.](assets/Nportfolio.JPG)
+
 ¡Bienvenido/a a mi portfolio! Este proyecto refleja mi transición profesional desde el área de Recursos Humanos hacia el **Desarrollo FrontEnd** y el **Software Testing (QA)**.
 
 El objetivo es demostrar la creación de interfaces intuitivas, accesibles y robustas.
@@ -30,5 +33,4 @@ Como futura QA, puse especial énfasis en la compatibilidad multidispositivo, te
 
 - **Validación de Formulario:** Implementación de validaciones nativas y manejo de estados de envío.
 - **Optimización:** Estructura de CSS organizada por jerarquía para evitar conflictos de especificidad (Cascada).
-- **Performance:**
-Carga de scripts asíncrona para mejorar el tiempo de respuesta inicial.  
+- **Performance:** Carga de scripts asíncrona para mejorar el tiempo de respuesta inicial.
