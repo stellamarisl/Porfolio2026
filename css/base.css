@@ -1,0 +1,155 @@
+/* VARIABLES*/
+
+:root {
+    --primary: #6366f1;
+    --secondary: #10b981;
+    --dark: #0f172a;
+    --light: #f8fafc;
+}
+
+/* RESET / BASE */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--dark);
+    color: var(--light);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* BOTONES */
+
+.btn-proyectos,
+.btn-skills,
+.btn-contacto{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    padding: 0 24px;
+    border-radius: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+    border: 2px solid transparent;
+}
+
+/* hero botones */
+
+.hero-btns a[href="#proyectos"] { background:#818cf8; color:white; }
+.hero-btns a[href="#skills"] { background:#5ba3c1; color:white; }
+.hero-btns a[href="#contacto"] { background:#34d399; color:white; }
+
+.hero-btns a:hover {
+    transform: translateY(-5px);
+    filter: brightness(1.1);
+}
+
+/* botones proyectos */
+
+.btn-proyectos{
+    background: var(--primary);
+    color: white;
+}
+
+.btn-proyectos:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(99,102,241,0.5);
+}
+
+.btn-skills {
+    background: transparent;
+    border-color: var(--secondary);
+    color: var(--secondary);
+}
+
+.btn-skills:hover {
+    background: rgba(16,185,129,0.1);
+    transform: translateY(-3px);
+}
+
+.btn-contacto {
+    background: var(--secondary);
+    color: var(--dark);
+}
+
+.btn-contacto:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(16,185,129,0.3);
+}
+.btn-proyecto-figma,
+.btn-proyecto-vercel,
+.btn-proyecto-github {
+    color: var(--secondary);
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+.btn-proyecto-figma:hover,
+.btn-proyecto-vercel:hover,
+.btn-proyecto-github:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(16,185,129,0.3);
+}
+
+
+/* UTILIDADES */
+
+.footer-simple{
+    text-align:center;
+    padding:40px;
+    font-size:.8rem;
+    color:#64748b;
+}
+
+#notificacion{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:var(--secondary);
+    color:var(--dark);
+    padding:15px 25px;
+    border-radius:12px;
+    font-weight:700;
+}
+
+.notificacion-oculta{
+    opacity:0;
+    transform:translateY(20px);
+    pointer-events:none;
+}
+
+.notificacion-visible{
+    opacity:1;
+    transform:translateY(0);
+    transition: all 0.3s ease;
+}
+
+.back-to-top{
+    position:fixed;
+    bottom:90px;
+    right:30px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:var(--primary);
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+

@@ -1,6 +1,6 @@
 # Portfolio Profesional - Stella Maris Loreto
 
-![Preview de mi portfolio](assets/Nportfolio.JPG)
+!(assets/Nportfolio.JPG)
 ¡Bienvenido/a a mi portfolio! Este proyecto refleja mi transición profesional desde el área de Recursos Humanos hacia el **Desarrollo FrontEnd** y el **Software Testing (QA)**.
 
 El objetivo es demostrar la creación de interfaces intuitivas, accesibles y robustas.
